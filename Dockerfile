@@ -11,8 +11,4 @@ RUN curl -sSL https://api.github.com/repos/pinterest/ktlint/releases/latest \
     && chmod a+x ktlint \
     && mv ktlint /usr/local/bin/
 
-set -o pipefail
-
-echo KtLint version: "$(ktlint --version)"
-
-./ktlint
+ENTRYPOINT ["/run-script.sh"]

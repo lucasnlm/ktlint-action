@@ -7,7 +7,7 @@ Baseed on [ScaCap implementation](https://github.com/ScaCap/action-ktlint).
 ## Example usage
 
 ```yml
-name: reviewdog
+name: Project
 on: [pull_request]
 jobs:
   ktlint:
@@ -15,13 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repo
-        uses: actions/checkout@master
+      - name: Clone PR
+        uses: actions/checkout@v1
         with:
           fetch-depth: 1
       - name: ktlint
-        uses: ScaCap/action-ktlint@master
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Change reporter
+        uses: lucasnlm/ktlint-action@master
 ```
