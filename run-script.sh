@@ -4,5 +4,5 @@ set -o pipefail
 
 echo KtLint version: "$(ktlint --version)"
 
-./ktlint
+ktlint
 
