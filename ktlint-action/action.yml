@@ -1,0 +1,9 @@
+name: 'Run ktlint'
+description: 'Run the latest ktlint'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'edit'
+  color: 'blue'
