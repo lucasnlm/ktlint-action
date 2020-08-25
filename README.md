@@ -16,9 +16,9 @@ jobs:
 
     steps:
       - name: Clone PR
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: ktlint
+      - name: Run Ktlint
         uses: lucasnlm/ktlint-action@master
 ```

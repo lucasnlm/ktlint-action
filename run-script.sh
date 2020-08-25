@@ -2,7 +2,6 @@
 
 set -o pipefail
 
-echo KtLint version: "$(ktlint --version)"
+echo Using KtLint version: "$(ktlint --version)"
 
-ktlint
-
+ktlint --relative
