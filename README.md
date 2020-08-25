@@ -2,7 +2,7 @@
 
 This action runs the lastest version of [ktlint](https://ktlint.github.io/) on pull requests to enforce best practices.
 
-Baseed on [ScaCap implementation](https://github.com/ScaCap/action-ktlint).
+Based on [ScaCap implementation](https://github.com/ScaCap/action-ktlint).
 
 ## Example usage
 
