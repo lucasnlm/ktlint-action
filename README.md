@@ -1,6 +1,6 @@
 # GitHub Action: Run ktlint
 
-This action runs the lastest version of [ktlint](https://ktlint.github.io/) on pull requests to enforce best practices.
+This `GitHub Action` runs the lastest version of [ktlint](https://ktlint.github.io/) on pull requests to enforce best practices.
 
 Based on [ScaCap implementation](https://github.com/ScaCap/action-ktlint).
 
