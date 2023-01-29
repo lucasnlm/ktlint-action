@@ -4,4 +4,4 @@ set -o pipefail
 
 echo Using KtLint version: "$(ktlint --version)"
 
-ktlint --relative
+ktlint --relative "$@"
